@@ -1,0 +1,244 @@
+/*BODY (ofwel de zich meest op de achtergrond bevindende laag)*/
+
+body
+{
+	height: 100%;
+	width: auto;
+	margin:auto;
+	min-height: 700px;
+	background-color: #180014;
+	background-attachment: 100%;
+	background-attachment: fixed;
+	font-family: Ubuntu, sans-serif;
+}
+
+/*MENU (het menu bovenaan de website)*/
+
+table.tablemenu 
+{
+	margin: auto;
+	width: 800px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	
+	
+}
+
+table.tablemenu td
+{
+	width: 100px;
+	
+	border: 8px solid purple;
+	
+	height: 80px;
+	text-align: center;
+	margin: auto;
+	background-color: #2F0B3A;
+	border-radius: 10px;
+	font-size: 200%;
+	font-family: Ubuntu, sans-serif;
+	
+
+}
+
+/*HYPERLINK (stijlinstellingen van hyperlinks)*/
+a:link
+{
+	color: #pink;
+	text-decoration: none;
+	text-decoration: bold;
+}
+
+a:visited
+{
+	color: #DFBFFF;
+	text-decoration: none;
+}
+
+
+/*DIV (div klassen)*/
+
+
+div.content1
+{
+	padding: 10px;
+	margin: auto;
+	width: 1000px;
+	height: auto;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	padding-top: 0px;
+	border: 8px solid purple;
+	border-radius: 5px;
+	position: relative;
+}
+div.content2
+{
+	
+	width: 1035px;
+	margin: auto;
+	padding-top: 10px;
+	position: relative;
+}
+div.content3
+{
+	padding: 10px;
+	float: left;
+	width: 153px;
+	height: auto;
+	min-height: 100px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	padding-top: 0px;
+	border: 8px solid purple;
+	border-radius: 5px;
+	position: relative;
+	font-size: 70%;
+	
+	
+}
+div.content4
+{
+	padding: 10px;
+	float: right;
+	width: 800px;
+	
+	min-height: 100px;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	padding-top: 0px;
+	border: 8px solid purple;
+	border-radius: 5px;
+	position: relative;
+	float: right;
+}
+
+div.menu
+{
+	height:auto;
+}
+.bericht
+{
+	text-align: justify;
+	padding: 10px;
+	
+}
+.menubericht
+{
+	text-align: justify;
+	padding: 3px;
+	
+}
+/*ID (id's)*/
+
+#toplogo
+{
+	height: 100px;
+	width: 100px;
+	float: left;
+	padding-top: 10px;
+	padding-right: 5px;
+	margin: auto;
+}
+/*hier komt de styling van de cijferlijst*/
+
+table.htmltags
+{
+	
+	margin-top:10px;
+	width: 100%;
+	padding:5px;
+	border-spacing:3px 2px;
+	border-left: 2px solid #666666;
+	border-top: 1px solid black;
+	border-bottom: 3px solid #666666;
+	border-right: 1px solid black;
+	border-radius: 5px;
+	margin-bottom:20px;
+	margin-top:20px;
+	
+}
+
+table.htmltags th
+{
+	background-color:#7396FF;
+	border-left: 2px solid #222;
+	border-top: 1px solid black;
+	border-bottom: 3px solid #222;
+	border-right: 1px solid black;
+	padding:8px;
+	border-radius: 3px;
+	
+}
+table.htmltags td
+{
+	padding:8px;
+	border-left: 2px solid #222;
+	border-top: 1px solid black;
+	border-bottom: 3px solid #222;
+	border-right: 1px solid black;
+	border-radius: 3px;
+}
+
+tr.evenrij
+{
+	
+	background-color: #F7E3FF;
+}
+tr.onevenrij
+{
+	background-color: #E6A7FF;
+	
+}
+.cijfer
+{
+	width: 60px;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.thvak
+{
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;}
+.tdcijfer
+{
+	text-align: center;
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.tdvak
+{
+	border-left: 2px solid black;
+	border-top: 2px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.afgeleid
+{
+	width: 28%;
+	text-align:center;
+	border-left: 2px solid black;
+	border-top: thick solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.uitleg
+{
+	border-left: 2px solid black;
+	border-top: thick solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
+.tag
+{
+	border-left: 2px solid black;
+	border-top: 4px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+}
